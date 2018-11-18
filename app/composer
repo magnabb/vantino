@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+docker-compose exec php composer "$@"
+
+bin/fix_permissions

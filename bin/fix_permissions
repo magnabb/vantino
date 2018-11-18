@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+sudo chown -R "$(whoami)":"$(whoami)" ../
+echo "Ownership for project root directory was fixed."
